@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A925F220E0E4D00023537D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A925F120E0E4D00023537D /* AppDelegate.swift */; };
+		A6A925F420E0E4D00023537D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A925F320E0E4D00023537D /* ViewController.swift */; };
+		A6A925F720E0E4D00023537D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A925F520E0E4D00023537D /* Main.storyboard */; };
+		A6A925F920E0E4D20023537D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A925F820E0E4D20023537D /* Assets.xcassets */; };
+		A6A925FC20E0E4D20023537D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A925FA20E0E4D20023537D /* LaunchScreen.storyboard */; };
+		A6A9260720E0E4D20023537D /* iReadBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9260620E0E4D20023537D /* iReadBookTests.swift */; };
+		A6A9261220E0E4D20023537D /* iReadBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9261120E0E4D20023537D /* iReadBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A9260320E0E4D20023537D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A925E620E0E4D00023537D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A925ED20E0E4D00023537D;
+			remoteInfo = iReadBook;
+		};
+		A6A9260E20E0E4D20023537D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A925E620E0E4D00023537D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A925ED20E0E4D00023537D;
+			remoteInfo = iReadBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A925EE20E0E4D00023537D /* iReadBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iReadBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A925F120E0E4D00023537D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A925F320E0E4D00023537D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6A925F620E0E4D00023537D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A925F820E0E4D20023537D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A925FB20E0E4D20023537D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A925FD20E0E4D20023537D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A9260220E0E4D20023537D /* iReadBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReadBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9260620E0E4D20023537D /* iReadBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iReadBookTests.swift; sourceTree = "<group>"; };
+		A6A9260820E0E4D20023537D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A9260D20E0E4D20023537D /* iReadBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReadBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9261120E0E4D20023537D /* iReadBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iReadBookUITests.swift; sourceTree = "<group>"; };
+		A6A9261320E0E4D20023537D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A925EB20E0E4D00023537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A925FF20E0E4D20023537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9260A20E0E4D20023537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A925E520E0E4D00023537D = {
+			isa = PBXGroup;
+			children = (
+				A6A925F020E0E4D00023537D /* iReadBook */,
+				A6A9260520E0E4D20023537D /* iReadBookTests */,
+				A6A9261020E0E4D20023537D /* iReadBookUITests */,
+				A6A925EF20E0E4D00023537D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A925EF20E0E4D00023537D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A925EE20E0E4D00023537D /* iReadBook.app */,
+				A6A9260220E0E4D20023537D /* iReadBookTests.xctest */,
+				A6A9260D20E0E4D20023537D /* iReadBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A925F020E0E4D00023537D /* iReadBook */ = {
+			isa = PBXGroup;
+			children = (
+				A6A925F120E0E4D00023537D /* AppDelegate.swift */,
+				A6A925F320E0E4D00023537D /* ViewController.swift */,
+				A6A925F520E0E4D00023537D /* Main.storyboard */,
+				A6A925F820E0E4D20023537D /* Assets.xcassets */,
+				A6A925FA20E0E4D20023537D /* LaunchScreen.storyboard */,
+				A6A925FD20E0E4D20023537D /* Info.plist */,
+			);
+			path = iReadBook;
+			sourceTree = "<group>";
+		};
+		A6A9260520E0E4D20023537D /* iReadBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9260620E0E4D20023537D /* iReadBookTests.swift */,
+				A6A9260820E0E4D20023537D /* Info.plist */,
+			);
+			path = iReadBookTests;
+			sourceTree = "<group>";
+		};
+		A6A9261020E0E4D20023537D /* iReadBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9261120E0E4D20023537D /* iReadBookUITests.swift */,
+				A6A9261320E0E4D20023537D /* Info.plist */,
+			);
+			path = iReadBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A925ED20E0E4D00023537D /* iReadBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9261620E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBook" */;
+			buildPhases = (
+				A6A925EA20E0E4D00023537D /* Sources */,
+				A6A925EB20E0E4D00023537D /* Frameworks */,
+				A6A925EC20E0E4D00023537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iReadBook;
+			productName = iReadBook;
+			productReference = A6A925EE20E0E4D00023537D /* iReadBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A9260120E0E4D20023537D /* iReadBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9261920E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBookTests" */;
+			buildPhases = (
+				A6A925FE20E0E4D20023537D /* Sources */,
+				A6A925FF20E0E4D20023537D /* Frameworks */,
+				A6A9260020E0E4D20023537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A9260420E0E4D20023537D /* PBXTargetDependency */,
+			);
+			name = iReadBookTests;
+			productName = iReadBookTests;
+			productReference = A6A9260220E0E4D20023537D /* iReadBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6A9260C20E0E4D20023537D /* iReadBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9261C20E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBookUITests" */;
+			buildPhases = (
+				A6A9260920E0E4D20023537D /* Sources */,
+				A6A9260A20E0E4D20023537D /* Frameworks */,
+				A6A9260B20E0E4D20023537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A9260F20E0E4D20023537D /* PBXTargetDependency */,
+			);
+			name = iReadBookUITests;
+			productName = iReadBookUITests;
+			productReference = A6A9260D20E0E4D20023537D /* iReadBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A925E620E0E4D00023537D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Roc.iMac01;
+				TargetAttributes = {
+					A6A925ED20E0E4D00023537D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					A6A9260120E0E4D20023537D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = A6A925ED20E0E4D00023537D;
+					};
+					A6A9260C20E0E4D20023537D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = A6A925ED20E0E4D00023537D;
+					};
+				};
+			};
+			buildConfigurationList = A6A925E920E0E4D00023537D /* Build configuration list for PBXProject "iReadBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A925E520E0E4D00023537D;
+			productRefGroup = A6A925EF20E0E4D00023537D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A925ED20E0E4D00023537D /* iReadBook */,
+				A6A9260120E0E4D20023537D /* iReadBookTests */,
+				A6A9260C20E0E4D20023537D /* iReadBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A925EC20E0E4D00023537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A925FC20E0E4D20023537D /* LaunchScreen.storyboard in Resources */,
+				A6A925F920E0E4D20023537D /* Assets.xcassets in Resources */,
+				A6A925F720E0E4D00023537D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9260020E0E4D20023537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9260B20E0E4D20023537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A925EA20E0E4D00023537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A925F420E0E4D00023537D /* ViewController.swift in Sources */,
+				A6A925F220E0E4D00023537D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A925FE20E0E4D20023537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9260720E0E4D20023537D /* iReadBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9260920E0E4D20023537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9261220E0E4D20023537D /* iReadBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A9260420E0E4D20023537D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A925ED20E0E4D00023537D /* iReadBook */;
+			targetProxy = A6A9260320E0E4D20023537D /* PBXContainerItemProxy */;
+		};
+		A6A9260F20E0E4D20023537D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A925ED20E0E4D00023537D /* iReadBook */;
+			targetProxy = A6A9260E20E0E4D20023537D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A925F520E0E4D00023537D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A925F620E0E4D00023537D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A925FA20E0E4D20023537D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A925FB20E0E4D20023537D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A9261420E0E4D20023537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6A9261520E0E4D20023537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A9261720E0E4D20023537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A9261820E0E4D20023537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6A9261A20E0E4D20023537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iReadBook.app/iReadBook";
+			};
+			name = Debug;
+		};
+		A6A9261B20E0E4D20023537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iReadBook.app/iReadBook";
+			};
+			name = Release;
+		};
+		A6A9261D20E0E4D20023537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iReadBook;
+			};
+			name = Debug;
+		};
+		A6A9261E20E0E4D20023537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = iReadBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.iReadBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iReadBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A925E920E0E4D00023537D /* Build configuration list for PBXProject "iReadBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9261420E0E4D20023537D /* Debug */,
+				A6A9261520E0E4D20023537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A9261620E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9261720E0E4D20023537D /* Debug */,
+				A6A9261820E0E4D20023537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A9261920E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9261A20E0E4D20023537D /* Debug */,
+				A6A9261B20E0E4D20023537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A9261C20E0E4D20023537D /* Build configuration list for PBXNativeTarget "iReadBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9261D20E0E4D20023537D /* Debug */,
+				A6A9261E20E0E4D20023537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A925E620E0E4D00023537D /* Project object */;
+}
